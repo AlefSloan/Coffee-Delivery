@@ -1,5 +1,5 @@
 import './App.css';
-import CoffeeCard from './Components/CoffeeCard';
+import CoffeeContainer from './Components/CoffeeContainer';
 import Header from './Components/Header';
 import Intro from './Components/Intro';
 
@@ -8,7 +8,7 @@ function App() {
     <div className="">
       <Header />
       <Intro />
-      <CoffeeCard />
+      <CoffeeContainer />
     </div>
   )
 }

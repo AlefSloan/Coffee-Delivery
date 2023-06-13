@@ -24,7 +24,7 @@ function CoffeeCard() {
             9,90
           </span>
         </span>
-        <div className="bg-base-button rounded-md flex items-center justify-center gap-1 p-2">
+        <div className="w-[72px] bg-base-button rounded-md flex items-center justify-around gap-1 p-2">
           <button className="text-purple-dark">
             <Minus size={14} />
           </button>
