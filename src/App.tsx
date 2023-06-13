@@ -1,8 +1,11 @@
 import './App.css';
+import CoffeeCard from './Components/CoffeeCard';
 
 function App() {
   return (
-    <div className=''>Hello World</div>
+    <div className="p-10">
+      <CoffeeCard />
+    </div>
   )
 }
 
