@@ -1,9 +1,11 @@
 import './App.css';
 import CoffeeCard from './Components/CoffeeCard';
+import Header from './Components/Header';
 
 function App() {
   return (
-    <div className="p-10">
+    <div className="">
+      <Header />
       <CoffeeCard />
     </div>
   )
