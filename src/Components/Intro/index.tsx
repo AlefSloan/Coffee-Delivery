@@ -13,7 +13,7 @@ function Intro() {
             hora
           </p>
         </div>
-        <div className="flex flex-wrap gap-y-5">
+        <div className="flex flex-wrap gap-x-5 gap-y-5">
           <span className="flex items-center gap-2">
             <div className="p-2 rounded-full bg-yellow-dark">
               <ShoppingCartSimple size={16} fill="white" weight="fill" />
@@ -22,7 +22,7 @@ function Intro() {
               Compra simples e segura
             </span>
           </span>
-          <span className="flex items-center gap-2">
+          <span className="flex translate-x-[6px] items-center gap-2">
             <div className="p-2 rounded-full bg-base-text">
               <Package size={16} fill="white" weight="fill" />
             </div>
@@ -48,7 +48,7 @@ function Intro() {
           </span>
         </div>
       </div>
-      <img className="h-[360px]" src="./public/images/Imagem.png" />
+      <img className="h-[360px]" src="/images/Imagem.png" />
     </div>
   );
 }
