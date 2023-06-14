@@ -13,7 +13,7 @@ function Intro() {
             hora
           </p>
         </div>
-        <div className="flex flex-wrap gap-x-10 gap-y-5">
+        <div className="flex flex-wrap gap-y-5">
           <span className="flex items-center gap-2">
             <div className="p-2 rounded-full bg-yellow-dark">
               <ShoppingCartSimple size={16} fill="white" weight="fill" />
@@ -27,7 +27,7 @@ function Intro() {
               <Package size={16} fill="white" weight="fill" />
             </div>
             <span className="text-text-md font-roboto text-base-text">
-              Compra simples e segura
+              Embalagem mantém o café intacto
             </span>
           </span>
           <span className="flex items-center gap-2">
@@ -35,7 +35,7 @@ function Intro() {
               <ClockCountdown size={16} fill="white" weight="fill" />
             </div>
             <span className="text-text-md font-roboto text-base-text">
-              Compra simples e segura
+              Entrega rápida e rastreada
             </span>
           </span>
           <span className="flex items-center gap-2">
@@ -43,7 +43,7 @@ function Intro() {
               <Coffee size={16} fill="white" weight="fill" />
             </div>
             <span className="text-text-md font-roboto text-base-text">
-              Compra simples e segura
+              O café chega fresquinho até você
             </span>
           </span>
         </div>
