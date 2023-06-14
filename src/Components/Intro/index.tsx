@@ -14,7 +14,7 @@ function Intro() {
           </p>
         </div>
         <div className="flex flex-wrap gap-x-5 gap-y-5">
-          <span className="flex items-center gap-2">
+          <span className="w-[231px] flex items-center gap-2">
             <div className="p-2 rounded-full bg-yellow-dark">
               <ShoppingCartSimple size={16} fill="white" weight="fill" />
             </div>
@@ -22,7 +22,7 @@ function Intro() {
               Compra simples e segura
             </span>
           </span>
-          <span className="flex translate-x-[6px] items-center gap-2">
+          <span className="w-[294px] flex items-center gap-2">
             <div className="p-2 rounded-full bg-base-text">
               <Package size={16} fill="white" weight="fill" />
             </div>
@@ -30,7 +30,7 @@ function Intro() {
               Embalagem mantém o café intacto
             </span>
           </span>
-          <span className="flex items-center gap-2">
+          <span className="w-[231px] flex items-center gap-2">
             <div className="p-2 rounded-full bg-yellow-normal">
               <ClockCountdown size={16} fill="white" weight="fill" />
             </div>
@@ -38,7 +38,7 @@ function Intro() {
               Entrega rápida e rastreada
             </span>
           </span>
-          <span className="flex items-center gap-2">
+          <span className="w-[294px] flex items-center gap-2">
             <div className="p-2 rounded-full bg-purple-normal">
               <Coffee size={16} fill="white" weight="fill" />
             </div>
